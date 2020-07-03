@@ -1,1 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Bagian Chandra*/
+.heading .border {
+    border-bottom: 2px solid orange;
+    margin: 0 33%;
+}
+.features-wrapper {
+    padding: 60px 0;
+    height: auto;
+    background-color: #f7f7f7;
+    /*background-color: #fff;*/
+    text-align: center;
+}
+
+.features-wrapper p {
+    padding: 15px 10%;
+    font-size: 18px;
+    height: auto;
+    line-height: 30px;
+    margin: auto;
+    color: #7a747d;
+}
+.features-wrapper .heading p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+.features-heading h3{
+    margin-bottom: 0;
+    font-family: "NunitoSansBold","helvetica",sans-serif ; 
+    color: #5f5d60;
+    
+}
+.features-heading p{
+    padding-top: 0;
+}
+.feature {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.feature .border {
+    border-bottom: 2px solid orange;
+    margin: 0 33%;
+}
+.card:hover{
+    
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    transition-property: color,background-color,border-color,box-shadow,top;
+    box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.2);
+}
 
