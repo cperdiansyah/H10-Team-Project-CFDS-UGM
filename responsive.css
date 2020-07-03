@@ -79,6 +79,13 @@
             width: 200px;
             text-align: left;
         }
+        
+        .feature {
+        margin: 10px;
+    }
+
+    .product {
+         margin: 10px 10px;
 
     }
 
@@ -154,4 +161,11 @@
             margin-left: 0;
             padding: 0 20px;
         }
+        .feature {
+        margin: 20px;
+    }
+
+    .product {
+         margin: 10px 20px;
+    }
     }
