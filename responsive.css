@@ -51,121 +51,154 @@
 
     .top-wrapper {
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: contain, cover;
         margin-top: 30px;
     }
 
     .top-wrapper .container {
         padding-left: 30px;
     }
+
     .features-wrapper {
-            padding:0 30px;
-        }
+        padding: 0 30px;
+    }
 
-    @media all and (max-width: 820px) {
-        .top-wrapper h1 {
-            font-size: 55px;
-            margin-top: -70px;
-            padding-top: 0;
-        }
+    .footer-content {
+        height: auto;
+        display: inline-block;
+    }
 
-        .top-wrapper h2 {
-            margin-top: 0;
-            padding-top: 5px;
-            font-size: 30px;
-        }
+}
 
-        .top-wrapper p {
-            width: 200px;
-            text-align: left;
-        }
-        
-        .feature {
+@media all and (max-width: 820px) {
+    .top-wrapper h1 {
+        font-size: 55px;
+        margin-top: -70px;
+        padding-top: 0;
+    }
+
+    .top-wrapper h2 {
+        margin-top: 0;
+        padding-top: 5px;
+        font-size: 30px;
+    }
+
+    .top-wrapper p {
+        width: 200px;
+        text-align: left;
+    }
+
+    .feature {
         margin: 10px;
     }
 
     .product {
-         margin: 10px 10px;
+        margin: 10px 10px;
 
     }
+}
 
-    /* Untuk Smartphone */
-    @media all and (max-width: 670px) {
-        .lesson {
-            width: 100%;
-        }
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
 
-        footer {
-            text-align: center;
-        }
 
-        .btn,
-        input,
-        textarea {
-            width: 100%;
-        }
 
-        .facebook {
-            margin-bottom: 10px;
-        }
+    .btn,
+    input,
+    textarea {
+        width: 100%;
+    }
 
-        .top-wrapper {
-            text-align: left;
-            margin-top: 50px;
-        }
+    .facebook {
+        margin-bottom: 10px;
+    }
 
-        /* Tambahkan CSS untuk header-right */
-        .header-right {
-            display: none;
-        }
+    .top-wrapper {
+        text-align: left;
+        margin-top: 50px;
+    }
 
-        /* Tambahkan CSS untuk menu-icon */
-        header .container span {
-            display: block;
-        }
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
 
-        .top-wrapper h1 {
-            font-size: 50px;
-            margin-top: -20px;
-            padding-top: 0;
-        }
+    /* Tambahkan CSS untuk menu-icon */
+    header .container span {
+        display: block;
+    }
 
-        .top-wrapper h2 {
-            margin-top: 0;
-            padding-top: 0px;
-            font-size: 30px;
-        }
+    .top-wrapper h1 {
+        font-size: 50px;
+        margin-top: 30px;
+        padding-top: 0;
+    }
 
-        .top-wrapper p {
-            margin-top: 30px;
-            padding-top: 55px;
-            width: 100%;
-            text-align: left;
-        }
-        
+    .top-wrapper h2 {
+        margin-top: 0;
+        padding-top: 0px;
+        font-size: 30px;
+    }
 
-        .features-wrapper p {
-            font-size: 14px;
-        }
-        .features {
+    .top-wrapper p {
+        margin-top: 0px;
+        padding-top: 15px;
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .features-wrapper p {
+        font-size: 14px;
+    }
+
+    .features {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-             padding: 10px;
+        padding: 10px;
     }
-        .products {
+
+    .products {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-             padding: 10px;
+        padding: 10px;
     }
-        .features-wrapper {
-            margin-left: 0;
-            padding: 0 20px;
-        }
-        .feature {
+
+
+    .features-wrapper {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .feature {
         margin: 20px;
     }
 
     .product {
-         margin: 10px 20px;
+        margin: 10px 20px;
     }
+
+    .footer-content {
+        height: auto;
+        flex-direction: column;
     }
+
+    .footer-section {
+        padding: 0 20px;
+    }
+
+    .footer-section h5 {
+        text-align: center;
+    }
+
+    .social li {
+        padding: 0 33%;
+    }
+
+    .layanan p {
+        padding: 0 30%;
+    }
+}
